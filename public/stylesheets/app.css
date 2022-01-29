@@ -1,0 +1,24 @@
+header {
+    background-color:orange;
+    color: azure; 
+}
+body {
+    background-color:whitesmoke ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+main {
+    background-color: white;
+    padding: 16px;
+}
+.finstagram-post {
+    margin-bottom: 50px;
+}
+.finstagram-post .user-info img {
+    border-radius: 25%;
+}
+a.photo:hover{
+    padding: 5px;
+}
+a.photo{
+    transition: padding 0.5s;
+}
