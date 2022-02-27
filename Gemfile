@@ -1,9 +1,9 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
 gem 'rake'
 gem 'activesupport'
-gem 'activerecord', '~> 4.2.0'
+gem 'activerecord', '< 6.1.0'
+gem 'bcrypt'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
@@ -11,6 +11,7 @@ gem 'sinatra-activerecord'
 
 gem 'puma'
 gem 'tux'
+gem 'pry'
 
 group :development, :test do
   gem 'shotgun'
